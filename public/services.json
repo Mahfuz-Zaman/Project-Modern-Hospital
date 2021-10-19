@@ -68,8 +68,8 @@
   {
     "key": 7,
     "img": "https://i.ibb.co/QKbdSPm/7.jpg",
-    "title": "Gynaecology",
-    "desc": "Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians. In many areas, the specialities of gynaecology. ",
+    "title": "Gynecology",
+    "desc": "Gynecology or gynecology is the medical practice dealing with the health of the female reproductive Almost all modern gynaecologists are also obstetricians.",
     "visit": 410,
     "specialist": "Dr. Nasim",
 
@@ -80,7 +80,7 @@
     "key": 8,
     "img": "https://i.ibb.co/cv0m5gy/8.jpg",
     "title": "Pulmonology",
-    "desc": "Pulmonology or pneumology is a medical specialty that deals with diseases involving the respiratory tract. It is also known as respirology, respiratory medicine, or chest medicine in some countries and areas.",
+    "desc": "Pulmonology or pneumology is a medical specialty that deals with diseases involving the respiratory tract. It is also known as respirology, respiratory medicine.",
     "visit": 355,
     "specialist": "Dr. Maria",
 
@@ -91,7 +91,7 @@
     "key": 9,
     "img": "https://i.ibb.co/CpcLXQ0/9.jpg",
     "title": "Psychopathology",
-    "desc": "Psychopathology is the study of abnormal cognition, behaviour and experiences which differs according to social norms and rests upon a number of constructs that are deemed to be the social norm at any particular era.",
+    "desc": "Psychopathology is the study of abnormal cognition, behaviour and experiences which differs according to social norms and rests upon a number of constructs ",
     "visit": 370,
     "specialist": "Dr. jack",
     "category": "Psychopathology specialist",
