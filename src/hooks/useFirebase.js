@@ -13,7 +13,17 @@ const useFirebase = () => {
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const [photo, setPhoto] = useState("");
+    const [loading, setLoading] = useState(true);
     const [password, setPassword] = useState("");
+
+
+    // clear error
+    useEffect(() => {
+        setTimeout(() => {
+            setError("");
+        }, 3000);
+    }, [error]);
+
     //google SignIn
     function signInWithGoogle() {
         return signInWithPopup(auth, googleProvider)
@@ -42,18 +52,20 @@ const useFirebase = () => {
     }
 
 
-    //Get the currently signedIn user
 
+
+    // Get the currently signed-in user
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
-            if (user) {
-
-                setUser(user)
+        const unsubscribe = onAuthStateChanged(auth, (signedInUser) => {
+            if (signedInUser) {
+                setUser(signedInUser);
+            } else {
+                setUser({});
             }
+            setLoading(false);
         });
         return () => unsubscribe;
-
-    }, [])
+    }, []);
 
     //Sign Out
     function logOut() {
@@ -72,7 +84,7 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 setNameAndImage();
-                alert("user has been created");
+                alert("CongratulationS!!New user has been created");
             })
             .catch((err) => {
                 setError(err.message);
@@ -109,7 +121,8 @@ const useFirebase = () => {
         setUser,
         setError,
         error,
-        logOut
+        logOut,
+        loading
     };
 };
 
