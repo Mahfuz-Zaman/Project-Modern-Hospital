@@ -1,0 +1,15 @@
+.cart-color {
+  font-size: 17px !important;
+  padding: 0 !important;
+  top: -6px !important;
+  background-color: orange !important;
+  width: 15px !important;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -68px;
+  margin-top: 0.125rem;
+}

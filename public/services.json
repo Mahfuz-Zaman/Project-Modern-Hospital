@@ -1,0 +1,100 @@
+[
+  {
+    "key": 1,
+    "img": "https://i.ibb.co/L00wGn7/1.jpg",
+    "title": "Cardiology",
+    "desc": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease. ",
+    "visit": 290,
+    "specialist": "Dr. Anam ",
+
+    "category": "Cardiology specialist",
+    "dThumb": "https://i.ibb.co/bWSbPzG/1.jpg"
+  },
+  {
+    "key": 2,
+    "img": "https://i.ibb.co/VLcwFS5/2.jpg",
+    "title": "Dental",
+    "desc": "​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth. The goal is to prevent complications such as tooth decay (cavities) and gum disease and to maintain the overall health of your mouth.",
+    "visit": 234,
+    "specialist": "Dr. Anika",
+
+    "category": "Dental specialist",
+    "dThumb": "https://i.ibb.co/Zdb0cJR/2.jpg"
+  },
+  {
+    "key": 3,
+    "img": "https://i.ibb.co/fDJ9gw8/3.jpg",
+    "title": "Neurology",
+    "desc": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. ",
+    "visit": 528,
+    "specialist": "Dr. Asha",
+
+    "category": "Neurology specialist",
+    "dThumb": "https://i.ibb.co/6YZqs2T/Portrait-of-beautiful-mature-woman-doctor-holding-digital-tablet-and-looking-at-camera-Confident-fem.jpg"
+  },
+  {
+    "key": 4,
+    "img": "https://i.ibb.co/HNgmfJL/4.jpg",
+    "title": "Ophthalmology",
+    "desc": "An ophthalmologist is a medical or osteopathic doctor who specializes in eye and vision care. Ophthalmologists differ from optometrists and opticians in their.",
+    "visit": 356,
+    "specialist": "Dr. Binoy",
+
+    "category": "Ophthalmology specialist",
+    "dThumb": "https://i.ibb.co/nnSsYtK/Portrait-Of-Mature-Male-Doctor-Wearing-White-Coat-Standing-In-Hospital-Corridor.jpg"
+  },
+  {
+    "key": 5,
+    "img": "https://i.ibb.co/n63jSxs/5.jpg",
+    "title": "Hematology",
+    "desc": "Hematology is the branch of medicine concerned with the study of the cause, prognosis, treatment, and prevention of diseases related to blood. ",
+    "visit": 368,
+    "specialist": "Dr. Omor",
+
+    "category": "Hematology specialist",
+    "dThumb": "https://i.ibb.co/LhxRhff/5.jpg"
+  },
+  {
+    "key": 6,
+    "img": "https://i.ibb.co/svWb966/6.jpg",
+    "title": "Immunology",
+    "desc": "Immunology is a branch of biology that covers the study of immune systems in all organisms. Immunology charts, measures obstetrics overlap.",
+    "visit": 435,
+    "specialist": "Dr. Habib",
+
+    "category": "Immunology specialist",
+    "dThumb": "https://i.ibb.co/0Z4wdWQ/6.jpg"
+  },
+  {
+    "key": 7,
+    "img": "https://i.ibb.co/QKbdSPm/7.jpg",
+    "title": "Gynaecology",
+    "desc": "Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians. In many areas, the specialities of gynaecology. ",
+    "visit": 410,
+    "specialist": "Dr. Nasim",
+
+    "category": "Gynaecology specialist",
+    "dThumb": "https://i.ibb.co/JyNk7qR/7.jpg"
+  },
+  {
+    "key": 8,
+    "img": "https://i.ibb.co/cv0m5gy/8.jpg",
+    "title": "Pulmonology",
+    "desc": "Pulmonology or pneumology is a medical specialty that deals with diseases involving the respiratory tract. It is also known as respirology, respiratory medicine, or chest medicine in some countries and areas.",
+    "visit": 355,
+    "specialist": "Dr. Maria",
+
+    "category": "Pulmonology specialist",
+    "dThumb": "https://i.ibb.co/JmBvjVT/Portrait-of-beautiful-young-female-doctor-looking-at-camera-in-the-office.jpg"
+  },
+  {
+    "key": 9,
+    "img": "https://i.ibb.co/CpcLXQ0/9.jpg",
+    "title": "Psychopathology",
+    "desc": "Psychopathology is the study of abnormal cognition, behaviour and experiences which differs according to social norms and rests upon a number of constructs that are deemed to be the social norm at any particular era.",
+    "visit": 370,
+    "specialist": "Dr. jack",
+    "category": "Psychopathology specialist",
+    "dThumb": "https://i.ibb.co/YjFBctp/9.jpg"
+  }
+]
