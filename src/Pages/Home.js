@@ -11,6 +11,7 @@ const Home = () => {
     const { services } = useAuth();
     return (
         <div>
+
             <div
                 style={{
                     background: `url(${Bg})`,
@@ -48,19 +49,15 @@ const Home = () => {
                     </div>
                 </Container>
             </div>
-
             <div style={{ background: `url(${BgM})`, backgroundAttachment: "fixed" }}>
-                <Row>
+                <Row className="m-0">
                     <Col md={6} className="text-warning">
                         <h1>Believe in us, we won’t let you down</h1>
-                        <ul>
+                        <ul >
                             <li>
-
                                 MEDICAL COUNSELING
                                 <br />
-
                                 In compliance of the Order of the Hon'ble Supreme Court of India dated 23/03/2012 passed in I.A No. 16/2012 in Civil Appeal No. 1944 of 1993 - Anand S.Biji Vs State of Kerala & Others & vide order dated 09/5/2017 passed in Writ Petition
-
                             </li>
                             <li>
                                 MEDICAL FACILITES
@@ -81,18 +78,16 @@ const Home = () => {
                                 24 HOURS SERVICES
                                 <br />
                                 In commerce and industry, 24/7 or 24-7 service (usually pronounced "twenty-four seven") is service that is available at any time and usually, every day
-
                             </li>
                             <li>
                                 DEDICATED PATIENT CARE
                                 <br />
                                 Implementation of a structured and standardized EHR was associated with 8.5% decrease in time for
                             </li>
-
                         </ul>
                     </Col>
                     <Col md={6} className="text-center text-warning">
-                        <img className="img-fluid mt-5 " src="https://i.ibb.co/18tfDH4/doctor.jpg" alt="" />
+                        <img className="img-fluid mt-5" src="https://i.ibb.co/18tfDH4/doctor.jpg" alt="" />
                     </Col>
                 </Row>
             </div>
@@ -114,7 +109,6 @@ const Home = () => {
                             services.slice(3, 9)?.map(service => <Service
                                 key={service.key}
                                 service={service}
-
                             ></Service>)
                         }
                     </div>
