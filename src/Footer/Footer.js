@@ -70,7 +70,7 @@ const Footer = () => {
                     </Row>
                 </Container>
 
-                <div className="m-0">
+                <div className="m-0 ">
                     <hr className="m-0 p-0" />
                     <p className="text-center text-warning m-0 py-3">
                         Copyright © All Reserved by Mahfuz Zaman in 2021

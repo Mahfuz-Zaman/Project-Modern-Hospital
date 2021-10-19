@@ -19,7 +19,7 @@ const Header = () => {
                         <Nav className="ms-auto align-items-center">
                             <Nav.Link as={NavLink} to="/home" className="text-white" >Home</Nav.Link>
                             <Nav.Link as={NavLink} to="/services" className="text-white" >Services</Nav.Link>
-                            <Nav.Link as={NavLink} to="/gallery" className="text-white" >Gallery</Nav.Link>
+                            <Nav.Link as={NavLink} to="/news" className="text-white" >News & Events</Nav.Link>
                             <Nav.Link as={NavLink} to="/about" className="text-white" >About</Nav.Link>
                             <Nav.Link as={NavLink} to="/contact" className="text-white" >Contact</Nav.Link>
                             {!displayName ? (<> <Nav.Link as={NavLink} to="/login" className="text-white" >Log In</Nav.Link>

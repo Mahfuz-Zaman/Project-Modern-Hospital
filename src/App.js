@@ -17,9 +17,9 @@ import PageNotFound from './Pages/PageNotFound';
 import AuthProvider from './contexts/AuthProvider';
 import Footer from './Footer/Footer';
 import Services from './Pages/Services';
-import Gallery from './Pages/Gallery';
 import Details from './Pages/Details';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import NewsAndEvents from './Pages/NewsAndEvents';
 
 function App() {
   return (
@@ -39,8 +39,8 @@ function App() {
               <Services></Services>
 
             </Route>
-            <Route exact path="/gallery">
-              <Gallery></Gallery>
+            <Route exact path="/news">
+              <NewsAndEvents></NewsAndEvents>
 
             </Route>
             <Route exact path="/about">
