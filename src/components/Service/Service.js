@@ -7,7 +7,7 @@ const Service = ({ service }) => {
     const { key, img, title, desc, visit } = service;
 
     return (<Zoom>
-        <Card className="m-2" style={{ width: "18rem" }}>
+        <Card className="m-2 " lg={4} md={6} style={{ width: "18rem" }}>
             <Card.Img variant="top" className="img-fluid" src={img} />
             <Card.Body className="my-1 py-1">
                 <Card.Title>{title}</Card.Title>

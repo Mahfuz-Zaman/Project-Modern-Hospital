@@ -111,7 +111,7 @@ const Home = () => {
                 <Container>
                     <div className="my-5 d-flex flex-wrap justify-content-center">
                         {
-                            services?.map(service => <Service
+                            services.slice(3, 9)?.map(service => <Service
                                 key={service.key}
                                 service={service}
 
