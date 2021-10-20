@@ -39,7 +39,7 @@ function ContactForm() {
                     <Wobble>
                         <Form>
                             <Row>
-                                <Col sm>
+                                <Col>
                                     <Form.Group
                                         className="mb-3 text-white"
                                         controlId="formBasicText"
@@ -63,7 +63,7 @@ function ContactForm() {
                                         />
                                     </Form.Group>
                                 </Col>
-                                <Col sm>
+                                <Col>
                                     <Form.Group
                                         className="mb-3 text-white"
                                         controlId="formBasicEmail"
@@ -107,7 +107,7 @@ function ContactForm() {
                                     rows={3}
                                 />
                             </Form.Group>
-                            <Button className="mb-5 px-4" variant="warning" type="submit">
+                            <Button className="mb-5 px-4" variant="warning" type="text">
                                 Submit
                             </Button>
                         </Form>

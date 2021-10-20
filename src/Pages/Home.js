@@ -12,6 +12,7 @@ const Home = () => {
     return (
         <div>
 
+
             <div
                 style={{
                     background: `url(${Bg})`,
@@ -48,6 +49,13 @@ const Home = () => {
                         </div>
                     </div>
                 </Container>
+            </div>
+            <div className="text-white my-0 text-center bg-dark">
+                <h1 className=" text-warning">Introduction</h1>
+                <p className="m-0 p-0">
+                    Bangladesh has a large population and a wide healthcare delivery network to cater them. But the infrastructure is inefficient and sometime inadequate. The design and inherent integration of the different tiers of healthcare facilities are also inefficient. Moreover, doctors and healthcare facilities are not fairly distributed throughout the country. Modern and sophisticated services are limited to capital city or mostly 3 or 4 big cities. Ensuring equitable access to all healthcare services is a big challenge. Resources and efforts should be ensured to develop trained manpower and their capacity development. Hospitals face the challenges to provide services to chronically ill patients, geriatric and mental health patients, provide modern state of the art facilities equitably as well as handling overcrowding issues at District and Medical College Hospitals.
+                </p>
+
             </div>
             <div style={{ background: `url(${BgM})`, backgroundAttachment: "fixed" }}>
                 <Row className="m-0">
@@ -113,6 +121,13 @@ const Home = () => {
                         }
                     </div>
                 </Container>
+            </div>
+            <div className="text-white my-0 text-center bg-dark">
+                <h1 className=" text-warning">Documents</h1>
+                <p className="m-0 p-0">
+                    Over two decades of tradition and excellence in providing high quality medical care, and a skilled team of expert physicians, specialists and nurses in caring for the thousands of patients we treat daily. Our wide array of modern medical services continuously improves the health of the community around us, all under a safe, standardized and convenient environment.At Dallah Hospital, the individual needs of our patients and their families are our top priority. As a leading healthcare organization in the Kingdom, we aspire to be the healthcare destination of choice in Riyadh and be recognized for having the most satisfied patients, the best possible clinical outcomes, and the most professional physicians, specialists and staff.
+                </p>
+
             </div>
 
         </div>
